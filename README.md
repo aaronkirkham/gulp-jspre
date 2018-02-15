@@ -1,7 +1,7 @@
 gulp-jspre
 ==============
 
-Small gulp plugin to import local and remote JavaScript files without using a bundler.
+A tiny JavaScript preprocessor for gulp to import local and remote scripts without using a bundler.
 
 ## Gulp Usage
 ```javascript
@@ -10,7 +10,7 @@ const jspre = require('gulp-jspre');
 gulp.task('js', () => {
   return gulp.src('entrypoint.js')
     .pipe(jspre())
-    .pipe(gulp.dest('./dist/));
+    .pipe(gulp.dest('./dist/'));
 });
 ```
 
