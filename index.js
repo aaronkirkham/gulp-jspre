@@ -24,7 +24,7 @@ module.exports = options => {
     // find all the instances of the @jspre comment
     const contents = file.contents.toString('utf8');
     asyncReplace(contents, jspreRegExp, (match, p1, p2, p3, offset, string, done) => {
-      // // grab the file name we need to import
+      // grab the file name we need to import
       const url = match.slice(match.indexOf('"') + 1, match.lastIndexOf('"'));
 
       // is this a local url?
