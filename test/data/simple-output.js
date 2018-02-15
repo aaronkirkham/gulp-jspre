@@ -1,0 +1,19 @@
+// this is a regular comment
+
+const log = (...args) => console.log.apply(console, args);
+
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+function divide(a, b) {
+  return a / b;
+}
