@@ -1,6 +1,6 @@
 {
   "name": "gulp-jspre",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp-jspre",
   "main": "index.js",
   "scripts": {
