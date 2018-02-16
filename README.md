@@ -1,7 +1,7 @@
 gulp-jspre
 ==============
 
-A tiny JavaScript preprocessor for gulp to import local and remote scripts without using a bundler.
+A JavaScript preprocessor for gulp to import local and remote scripts without using a bundler.
 
 ## Gulp Usage
 ```javascript
